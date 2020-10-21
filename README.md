@@ -1,7 +1,7 @@
 # Capita Selecta Topic 2: Neurally guided Theorem Proving
 
 
-You are required to design a strategy to use a neural network to _improve_ a standard (top-dow, left-right) proving procedure of Prolog. The nature of this improvement is mainly up to you. This is a research problem; there is no correct answer and no unique solution. You are allowed to make any kind of assumption to narrow the problem and to define a specific research question, which you will answer. 
+You are required to design a strategy to use a neural network to _improve_ and _modify_ the standard (top-dow, left-right) proving procedure of Prolog. The nature of this improvement is mainly up to you. This is a research problem; there is no correct answer and no unique solution. You are allowed to make any kind of assumption to narrow the problem and to define a specific research question, which you will answer. 
 
 Theorem proving is about providing a proof to a query. Training neural networks is about providing examples for the training. So, you are free to define the amount of information you are provided with. For example, you are allowed to precompute the entire set of proofs in advance, and, thus, you may know in advance which are good proofs and which are not. However, any assumption you make should be motivated and its impact discussed.
 

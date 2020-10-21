@@ -1,9 +1,6 @@
-from pyswip import Prolog, registerForeign, PL_new_term_ref
-from proof_parser import Parser
+from pyswip import Prolog, registerForeign
 
 
-
-proof_parser = Parser()
 prolog = Prolog()
 prolog.consult("solver2.pl")
 prolog.consult("problem.pl")
@@ -28,6 +25,4 @@ registerForeign(foreign_score)
 query = 'solve(path(a,e), P)'
 
 for l in prolog.query(query):
-    # p = proof_parser.parse(l['P'])
-    # print(p)
-    print()
+    print(l)
